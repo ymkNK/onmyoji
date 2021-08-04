@@ -426,7 +426,7 @@ class App:
         partial_register = partial(self.hk.register, overwrite=True)
 
         partial_register(('control', 'w'), callback=lambda e: self.write_info())
-        partial_register(('control', 'c'), callback=lambda e: self.destroy())
+        # partial_register(('control', 'c'), callback=lambda e: self.destroy())
         partial_register(('control', 'r'), callback=lambda e: self.func_start())
         partial_register(('control', 'p'), callback=lambda e: self.pause())
         partial_register(('control', 's'), callback=lambda e: self.save_config_as_default())

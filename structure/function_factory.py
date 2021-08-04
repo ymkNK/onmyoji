@@ -233,8 +233,11 @@ class FunctionFactory:
 
         return result_functions
 
+    def update(self, param, param1, param2, param3):
+        pass
 
-if __name__ == '__main__':
+
+def test_1():
     test_ff = FunctionFactory()
     functions = test_ff.init_functions_from_config()
 
@@ -253,3 +256,32 @@ if __name__ == '__main__':
     print(function_names)
     # 获取某一个功能的步骤
     print(test_ff.get_step_names_from_function_name(function_names[0]))
+
+
+def test_custom():
+    # 两个显示地址相差 536-23 = 513
+    test_ff = FunctionFactory()
+    # 测试读取
+    f = test_ff.load_functions_from_json('../custom/default.json')
+    # 测试初始化
+    suffix = "_copy"
+    change_height = 513
+    for function in f:
+        for step in function.steps:
+            step.step_name = step.step_name + suffix
+            step.step_type = step.step_type + suffix
+            for point in step.points:
+                point.point_name += suffix
+                point.point_type += suffix
+                if point.point_location[1] == "":
+                    continue
+                y = int(point.point_location[1])
+                y += change_height
+                print(y)
+                point.point_location[1] = y
+
+    test_ff.save_functions2json(f, '../custom/default2.json')
+
+
+if __name__ == '__main__':
+    test_custom()
