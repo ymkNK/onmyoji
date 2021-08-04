@@ -1,1051 +1,1430 @@
 [
   {
-        "func_name": "结界突破",
-        "func_code": "006",
-        "func_shown": 1,
-        "steps": [
-            {
-                "step_name": "打开结界突破页面",
-                "step_type": "",
-                "points": [
-                    {
-                        "point_name": "打开结界突破页面[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            203,
-                            467
-                        ],
-                        "point_color": [
-                            152,
-                            55,
-                            51
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "如果可以刷新点击刷新",
-                "step_type": "refresh",
-                "points": [
-                    {
-                        "point_name": "如果可以刷新点击刷新[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            708,
-                            431
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "刷新确认",
-                "step_type": "ack",
-                "points": [
-                    {
-                        "point_name": "刷新确认[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            456,
-                            325
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择1号",
-                "step_type": "1",
-                "points": [
-                    {
-                        "point_name": "选择1号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            243,
-                            164
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻1号",
-                "step_type": "1",
-                "points": [
-                    {
-                        "point_name": "进攻1号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            273,
-                            287
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择2号",
-                "step_type": "2",
-                "points": [
-                    {
-                        "point_name": "选择2号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            500,
-                            165
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻2号",
-                "step_type": "2",
-                "points": [
-                    {
-                        "point_name": "进攻2号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            489,
-                            292
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择3号",
-                "step_type": "3",
-                "points": [
-                    {
-                        "point_name": "选择3号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            683,
-                            170
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻3号",
-                "step_type": "3",
-                "points": [
-                    {
-                        "point_name": "进攻3号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            648,
-                            288
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择4号",
-                "step_type": "4",
-                "points": [
-                    {
-                        "point_name": "选择4号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            279,
-                            248
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻4号",
-                "step_type": "4",
-                "points": [
-                    {
-                        "point_name": "进攻4号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            271,
-                            373
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择5号",
-                "step_type": "5",
-                "points": [
-                    {
-                        "point_name": "选择5号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            483,
-                            250
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻5号",
-                "step_type": "5",
-                "points": [
-                    {
-                        "point_name": "进攻5号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            488,
-                            377
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择6号",
-                "step_type": "6",
-                "points": [
-                    {
-                        "point_name": "选择6号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            686,
-                            258
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻6号",
-                "step_type": "6",
-                "points": [
-                    {
-                        "point_name": "进攻6号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            661,
-                            375
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择7号",
-                "step_type": "7",
-                "points": [
-                    {
-                        "point_name": "选择7号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            275,
-                            335
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻7号",
-                "step_type": "7",
-                "points": [
-                    {
-                        "point_name": "进攻7号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            277,
-                            456
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择8号",
-                "step_type": "8",
-                "points": [
-                    {
-                        "point_name": "选择8号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            487,
-                            344
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻8号",
-                "step_type": "8",
-                "points": [
-                    {
-                        "point_name": "进攻8号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            481,
-                            463
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择9号",
-                "step_type": "9",
-                "points": [
-                    {
-                        "point_name": "选择9号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            678,
-                            340
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻9号",
-                "step_type": "9",
-                "points": [
-                    {
-                        "point_name": "进攻9号[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            706,
-                            462
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "标记式神",
-                "step_type": "mark",
-                "points": [
-                    {
-                        "point_name": "标记式神[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            80,
-                            357
-                        ],
-                        "point_color": [
-                            63,
-                            61,
-                            60
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "结算状态1",
-                "step_type": "end1",
-                "points": [
-                    {
-                        "point_name": "结算状态1[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            509,
-                            379
-                        ],
-                        "point_color": [
-                            19,
-                            11,
-                            15
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "结算状态2",
-                "step_type": "end2",
-                "points": [
-                    {
-                        "point_name": "结算状态2[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            409,
-                            318
-                        ],
-                        "point_color": [
-                            211,
-                            54,
-                            68
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "失败状态1",
-                "step_type": "fail1",
-                "points": [
-                    {
-                        "point_name": "失败状态1[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            318,
-                            166
-                        ],
-                        "point_color": [
-                            85,
-                            78,
-                            96
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "失败状态2",
-                "step_type": "fail2",
-                "points": [
-                    {
-                        "point_name": "失败状态2[1]@lc",
-                        "point_type": "lc",
-                        "point_location": [
-                            "",
-                            ""
-                        ],
-                        "point_color": [
-                            "",
-                            "",
-                            ""
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-
-            {
-                "step_name": "打开结界突破页面_copy",
-                "step_type": "_copy",
-                "points": [
-                    {
-                        "point_name": "打开结界突破页面[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            203,
-                            980
-                        ],
-                        "point_color": [
-                            152,
-                            55,
-                            51
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "如果可以刷新点击刷新_copy",
-                "step_type": "refresh_copy",
-                "points": [
-                    {
-                        "point_name": "如果可以刷新点击刷新[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            708,
-                            944
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "刷新确认_copy",
-                "step_type": "ack_copy",
-                "points": [
-                    {
-                        "point_name": "刷新确认[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            456,
-                            838
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择1号_copy",
-                "step_type": "1_copy",
-                "points": [
-                    {
-                        "point_name": "选择1号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            243,
-                            677
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻1号_copy",
-                "step_type": "1_copy",
-                "points": [
-                    {
-                        "point_name": "进攻1号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            273,
-                            800
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择2号_copy",
-                "step_type": "2_copy",
-                "points": [
-                    {
-                        "point_name": "选择2号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            500,
-                            678
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻2号_copy",
-                "step_type": "2_copy",
-                "points": [
-                    {
-                        "point_name": "进攻2号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            489,
-                            805
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择3号_copy",
-                "step_type": "3_copy",
-                "points": [
-                    {
-                        "point_name": "选择3号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            683,
-                            683
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻3号_copy",
-                "step_type": "3_copy",
-                "points": [
-                    {
-                        "point_name": "进攻3号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            648,
-                            801
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择4号_copy",
-                "step_type": "4_copy",
-                "points": [
-                    {
-                        "point_name": "选择4号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            279,
-                            761
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻4号_copy",
-                "step_type": "4_copy",
-                "points": [
-                    {
-                        "point_name": "进攻4号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            271,
-                            886
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择5号_copy",
-                "step_type": "5_copy",
-                "points": [
-                    {
-                        "point_name": "选择5号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            483,
-                            763
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻5号_copy",
-                "step_type": "5_copy",
-                "points": [
-                    {
-                        "point_name": "进攻5号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            488,
-                            890
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择6号_copy",
-                "step_type": "6_copy",
-                "points": [
-                    {
-                        "point_name": "选择6号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            686,
-                            771
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻6号_copy",
-                "step_type": "6_copy",
-                "points": [
-                    {
-                        "point_name": "进攻6号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            661,
-                            888
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择7号_copy",
-                "step_type": "7_copy",
-                "points": [
-                    {
-                        "point_name": "选择7号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            275,
-                            848
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻7号_copy",
-                "step_type": "7_copy",
-                "points": [
-                    {
-                        "point_name": "进攻7号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            277,
-                            969
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择8号_copy",
-                "step_type": "8_copy",
-                "points": [
-                    {
-                        "point_name": "选择8号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            487,
-                            857
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻8号_copy",
-                "step_type": "8_copy",
-                "points": [
-                    {
-                        "point_name": "进攻8号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            481,
-                            976
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "选择9号_copy",
-                "step_type": "9_copy",
-                "points": [
-                    {
-                        "point_name": "选择9号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            678,
-                            853
-                        ],
-                        "point_color": [
-                            218,
-                            205,
-                            189
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "进攻9号_copy",
-                "step_type": "9_copy",
-                "points": [
-                    {
-                        "point_name": "进攻9号[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            706,
-                            975
-                        ],
-                        "point_color": [
-                            243,
-                            178,
-                            94
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "标记式神_copy",
-                "step_type": "mark_copy",
-                "points": [
-                    {
-                        "point_name": "标记式神[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            80,
-                            870
-                        ],
-                        "point_color": [
-                            63,
-                            61,
-                            60
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "结算状态1_copy",
-                "step_type": "end1_copy",
-                "points": [
-                    {
-                        "point_name": "结算状态1[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            509,
-                            892
-                        ],
-                        "point_color": [
-                            19,
-                            11,
-                            15
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "结算状态2_copy",
-                "step_type": "end2_copy",
-                "points": [
-                    {
-                        "point_name": "结算状态2[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            409,
-                            831
-                        ],
-                        "point_color": [
-                            211,
-                            54,
-                            68
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "失败状态1_copy",
-                "step_type": "fail1_copy",
-                "points": [
-                    {
-                        "point_name": "失败状态1[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            318,
-                            679
-                        ],
-                        "point_color": [
-                            85,
-                            78,
-                            96
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            },
-            {
-                "step_name": "失败状态2_copy",
-                "step_type": "fail2_copy",
-                "points": [
-                    {
-                        "point_name": "失败状态2[1]@lc_copy",
-                        "point_type": "lc_copy",
-                        "point_location": [
-                            "",
-                            ""
-                        ],
-                        "point_color": [
-                            "",
-                            "",
-                            ""
-                        ],
-                        "click_times": 1
-                    }
-                ]
-            }
-        ],
-        "connections": []
-    }
+    "func_name": "结界突破",
+    "func_code": "006",
+    "func_shown": 1,
+    "steps": [
+      {
+        "step_name": "打开结界突破页面",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "打开结界突破页面[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              203,
+              467
+            ],
+            "point_color": [
+              152,
+              55,
+              51
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "如果可以刷新点击刷新",
+        "step_type": "refresh",
+        "points": [
+          {
+            "point_name": "如果可以刷新点击刷新[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              708,
+              431
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "刷新确认",
+        "step_type": "ack",
+        "points": [
+          {
+            "point_name": "刷新确认[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              456,
+              325
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择1号",
+        "step_type": "1",
+        "points": [
+          {
+            "point_name": "选择1号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              243,
+              164
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻1号",
+        "step_type": "1",
+        "points": [
+          {
+            "point_name": "进攻1号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              273,
+              287
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择2号",
+        "step_type": "2",
+        "points": [
+          {
+            "point_name": "选择2号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              500,
+              165
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻2号",
+        "step_type": "2",
+        "points": [
+          {
+            "point_name": "进攻2号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              489,
+              292
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择3号",
+        "step_type": "3",
+        "points": [
+          {
+            "point_name": "选择3号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              683,
+              170
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻3号",
+        "step_type": "3",
+        "points": [
+          {
+            "point_name": "进攻3号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              648,
+              288
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择4号",
+        "step_type": "4",
+        "points": [
+          {
+            "point_name": "选择4号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              279,
+              248
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻4号",
+        "step_type": "4",
+        "points": [
+          {
+            "point_name": "进攻4号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              271,
+              373
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择5号",
+        "step_type": "5",
+        "points": [
+          {
+            "point_name": "选择5号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              483,
+              250
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻5号",
+        "step_type": "5",
+        "points": [
+          {
+            "point_name": "进攻5号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              488,
+              377
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择6号",
+        "step_type": "6",
+        "points": [
+          {
+            "point_name": "选择6号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              686,
+              258
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻6号",
+        "step_type": "6",
+        "points": [
+          {
+            "point_name": "进攻6号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              661,
+              375
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择7号",
+        "step_type": "7",
+        "points": [
+          {
+            "point_name": "选择7号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              275,
+              335
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻7号",
+        "step_type": "7",
+        "points": [
+          {
+            "point_name": "进攻7号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              277,
+              456
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择8号",
+        "step_type": "8",
+        "points": [
+          {
+            "point_name": "选择8号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              487,
+              344
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻8号",
+        "step_type": "8",
+        "points": [
+          {
+            "point_name": "进攻8号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              481,
+              463
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择9号",
+        "step_type": "9",
+        "points": [
+          {
+            "point_name": "选择9号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              678,
+              340
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻9号",
+        "step_type": "9",
+        "points": [
+          {
+            "point_name": "进攻9号[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              706,
+              462
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "标记式神",
+        "step_type": "mark",
+        "points": [
+          {
+            "point_name": "标记式神[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              80,
+              357
+            ],
+            "point_color": [
+              63,
+              61,
+              60
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "结算状态1",
+        "step_type": "end1",
+        "points": [
+          {
+            "point_name": "结算状态1[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              509,
+              379
+            ],
+            "point_color": [
+              19,
+              11,
+              15
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "结算状态2",
+        "step_type": "end2",
+        "points": [
+          {
+            "point_name": "结算状态2[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              409,
+              318
+            ],
+            "point_color": [
+              211,
+              54,
+              68
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "失败状态1",
+        "step_type": "fail1",
+        "points": [
+          {
+            "point_name": "失败状态1[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              318,
+              166
+            ],
+            "point_color": [
+              85,
+              78,
+              96
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "失败状态2",
+        "step_type": "fail2",
+        "points": [
+          {
+            "point_name": "失败状态2[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "打开结界突破页面_copy",
+        "step_type": "_copy",
+        "points": [
+          {
+            "point_name": "打开结界突破页面[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              203,
+              980
+            ],
+            "point_color": [
+              152,
+              55,
+              51
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "如果可以刷新点击刷新_copy",
+        "step_type": "refresh_copy",
+        "points": [
+          {
+            "point_name": "如果可以刷新点击刷新[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              708,
+              944
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "刷新确认_copy",
+        "step_type": "ack_copy",
+        "points": [
+          {
+            "point_name": "刷新确认[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              456,
+              838
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择1号_copy",
+        "step_type": "1_copy",
+        "points": [
+          {
+            "point_name": "选择1号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              243,
+              677
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻1号_copy",
+        "step_type": "1_copy",
+        "points": [
+          {
+            "point_name": "进攻1号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              273,
+              800
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择2号_copy",
+        "step_type": "2_copy",
+        "points": [
+          {
+            "point_name": "选择2号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              500,
+              678
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻2号_copy",
+        "step_type": "2_copy",
+        "points": [
+          {
+            "point_name": "进攻2号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              489,
+              805
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择3号_copy",
+        "step_type": "3_copy",
+        "points": [
+          {
+            "point_name": "选择3号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              683,
+              683
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻3号_copy",
+        "step_type": "3_copy",
+        "points": [
+          {
+            "point_name": "进攻3号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              648,
+              801
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择4号_copy",
+        "step_type": "4_copy",
+        "points": [
+          {
+            "point_name": "选择4号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              279,
+              761
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻4号_copy",
+        "step_type": "4_copy",
+        "points": [
+          {
+            "point_name": "进攻4号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              271,
+              886
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择5号_copy",
+        "step_type": "5_copy",
+        "points": [
+          {
+            "point_name": "选择5号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              483,
+              763
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻5号_copy",
+        "step_type": "5_copy",
+        "points": [
+          {
+            "point_name": "进攻5号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              488,
+              890
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择6号_copy",
+        "step_type": "6_copy",
+        "points": [
+          {
+            "point_name": "选择6号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              686,
+              771
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻6号_copy",
+        "step_type": "6_copy",
+        "points": [
+          {
+            "point_name": "进攻6号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              661,
+              888
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择7号_copy",
+        "step_type": "7_copy",
+        "points": [
+          {
+            "point_name": "选择7号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              275,
+              848
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻7号_copy",
+        "step_type": "7_copy",
+        "points": [
+          {
+            "point_name": "进攻7号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              277,
+              969
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择8号_copy",
+        "step_type": "8_copy",
+        "points": [
+          {
+            "point_name": "选择8号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              487,
+              857
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻8号_copy",
+        "step_type": "8_copy",
+        "points": [
+          {
+            "point_name": "进攻8号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              481,
+              976
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "选择9号_copy",
+        "step_type": "9_copy",
+        "points": [
+          {
+            "point_name": "选择9号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              678,
+              853
+            ],
+            "point_color": [
+              218,
+              205,
+              189
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "进攻9号_copy",
+        "step_type": "9_copy",
+        "points": [
+          {
+            "point_name": "进攻9号[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              706,
+              975
+            ],
+            "point_color": [
+              243,
+              178,
+              94
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "标记式神_copy",
+        "step_type": "mark_copy",
+        "points": [
+          {
+            "point_name": "标记式神[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              80,
+              870
+            ],
+            "point_color": [
+              63,
+              61,
+              60
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "结算状态1_copy",
+        "step_type": "end1_copy",
+        "points": [
+          {
+            "point_name": "结算状态1[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              509,
+              892
+            ],
+            "point_color": [
+              19,
+              11,
+              15
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "结算状态2_copy",
+        "step_type": "end2_copy",
+        "points": [
+          {
+            "point_name": "结算状态2[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              409,
+              831
+            ],
+            "point_color": [
+              211,
+              54,
+              68
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "失败状态1_copy",
+        "step_type": "fail1_copy",
+        "points": [
+          {
+            "point_name": "失败状态1[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              318,
+              679
+            ],
+            "point_color": [
+              85,
+              78,
+              96
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "失败状态2_copy",
+        "step_type": "fail2_copy",
+        "points": [
+          {
+            "point_name": "失败状态2[1]@lc_copy",
+            "point_type": "lc_copy",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 1
+          }
+        ]
+      }
+    ],
+    "connections": []
+  },
+  {
+    "func_name": "双人御魂",
+    "func_code": "001",
+    "func_shown": 1,
+    "steps": [
+      {
+        "step_name": "挑战",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "挑战[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              787,
+              457
+            ],
+            "point_color": [
+              236,
+              210,
+              126
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "队员结算状态1",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队员结算状态1[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              692,
+              871
+            ],
+            "point_color": [
+              14,
+              18,
+              34
+            ],
+            "click_times": 3
+          }
+        ]
+      },
+      {
+        "step_name": "队长结算状态1",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队长结算状态1[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              682,
+              379
+            ],
+            "point_color": [
+              14,
+              19,
+              35
+            ],
+            "click_times": 3
+          }
+        ]
+      },
+      {
+        "step_name": "队员结算状态2",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队员结算状态2[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              718,
+              888
+            ],
+            "point_color": [
+              16,
+              20,
+              37
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "队长结算状态2",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队长结算状态2[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              700,
+              369
+            ],
+            "point_color": [
+              14,
+              16,
+              34
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "队员自动接受",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队员自动接受[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "队长自动邀请",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队长自动邀请[1]@l",
+            "point_type": "l",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 0
+          },
+          {
+            "point_name": "队长自动邀请[2]@m1",
+            "point_type": "m1",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 1
+          },
+          {
+            "point_name": "队长自动邀请[2]@m2",
+            "point_type": "m2",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "关闭加成",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "关闭加成[1]@l",
+            "point_type": "l",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 0
+          },
+          {
+            "point_name": "关闭加成[2]@l",
+            "point_type": "l",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 0
+          },
+          {
+            "point_name": "关闭加成[3]@m1",
+            "point_type": "m1",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 1
+          },
+          {
+            "point_name": "关闭加成[3]@m2",
+            "point_type": "m2",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 1
+          },
+          {
+            "point_name": "关闭加成[3]@m3",
+            "point_type": "m3",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "你好",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "你好[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              "",
+              ""
+            ],
+            "point_color": [
+              "",
+              "",
+              ""
+            ],
+            "click_times": 1
+          }
+        ]
+      }
+    ],
+    "connections": []
+  },
+  {
+    "func_name": "永生之海",
+    "func_code": "001",
+    "func_shown": 1,
+    "steps": [
+      {
+        "step_name": "挑战",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "挑战[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              789,
+              444
+            ],
+            "point_color": [
+              229,
+              218,
+              196
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "队员结算状态1",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队员结算状态1[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              547,
+              891
+            ],
+            "point_color": [
+              25,
+              18,
+              20
+            ],
+            "click_times": 3
+          }
+        ]
+      },
+      {
+        "step_name": "队长结算状态1",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队长结算状态1[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              579,
+              347
+            ],
+            "point_color": [
+              24,
+              16,
+              18
+            ],
+            "click_times": 3
+          }
+        ]
+      },
+      {
+        "step_name": "队员结算状态2",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队员结算状态2[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              434,
+              892
+            ],
+            "point_color": [
+              186,
+              68,
+              26
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "队长结算状态2",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "队长结算状态2[1]@lc",
+            "point_type": "lc",
+            "point_location": [
+              438,
+              381
+            ],
+            "point_color": [
+              187,
+              63,
+              26
+            ],
+            "click_times": 1
+          }
+        ]
+      }
+    ],
+    "connections": []
+  }
 ]
