@@ -1049,7 +1049,7 @@
   },
   {
     "func_name": "双人御魂",
-    "func_code": "001",
+    "func_code": "002",
     "func_shown": 1,
     "steps": [
       {
@@ -1062,6 +1062,26 @@
             "point_location": [
               787,
               457
+            ],
+            "point_color": [
+              236,
+              210,
+              126
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+       {
+        "step_name": "挑战_copy",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "挑战[1]@lc_copy",
+            "point_type": "lc",
+            "point_location": [
+              787,
+              970
             ],
             "point_color": [
               236,
@@ -1321,7 +1341,7 @@
   },
   {
     "func_name": "永生之海",
-    "func_code": "001",
+    "func_code": "003",
     "func_shown": 1,
     "steps": [
       {
@@ -1334,6 +1354,26 @@
             "point_location": [
               789,
               444
+            ],
+            "point_color": [
+              229,
+              218,
+              196
+            ],
+            "click_times": 1
+          }
+        ]
+      },
+      {
+        "step_name": "挑战_copy",
+        "step_type": "",
+        "points": [
+          {
+            "point_name": "挑战[1]@lc_copy",
+            "point_type": "lc",
+            "point_location": [
+              789,
+              957
             ],
             "point_color": [
               229,
